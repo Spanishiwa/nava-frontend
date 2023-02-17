@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Marketplace } from "./components/Marketplace/Marketplace";
+import { Box } from "@mui/material";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Box
+        component="main"
+        className="App"
+        sx={{
+          backgroundColor: "#fafafa",
+          minHeight: "100vh",
+          px: { xs: 2, sm: 5 },
+          py: 4
+        }}
+      >
+        <Routes>
+          <Route element={<Marketplace />} path="/"></Route>
+        </Routes>
+      </Box>
+    </BrowserRouter>
   );
 }
 
