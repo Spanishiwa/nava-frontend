@@ -21,8 +21,8 @@ I chose React because it's a lightweight framework that is great for building re
 
 ## Questions:
 
--I would have asked if the "Marketplace" text in the header is a link or plain text. To me it looks like a "Facebook" header which is a link, that's why I used React Router Dom.
--I would have asked about the cards: Should their sizes be the same, or based on its content? What would the design look like with 3 or 5 cards - stacked vertically or unevenly spread on multiple rows?
+- I would have asked if the "Marketplace" text in the header is a link or plain text. To me it looks like a "Facebook" header which is a link, that's why I used React Router Dom.
+- I would have asked about the cards: Should their sizes be the same, or based on its content? What would the design look like with 3 or 5 cards - stacked vertically or unevenly spread on multiple rows?
 
 ## Available Scripts
 
