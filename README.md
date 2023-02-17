@@ -12,7 +12,7 @@ Choices that deviated:
 I added an icon to the add new member button to make its purpose more intuitive. I added box shadows to the cards, button, and header to add emphasis in a way that is consistent with google's material design elevation principles.
 
 Questions:
-I would have asked if the "Marketplace" text in the header is a link or plain text. To me it looks like a "Facebook" header which is a link, that's why I used React Router Dom.
+I would have asked if the "Marketplace" text in the header is a link or plain text. To me it looks like a "Facebook" header which is a link, that's why I used React Router Dom. I would have asked about the cards: Should their sizes be the same, or based on its content? What would the design look like with 3 or 5 cards - stacked vertically or unevenly spread on multiple rows?
 
 ## Available Scripts
 

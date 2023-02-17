@@ -14,22 +14,22 @@ const MOCK_HOUSEHOLD = [
 const MOCK_NEW_MEMBERS = [
   {
     name: "Frank Baxter",
-    description: "Father",
+    description: "Household contact",
     favoriteFruit: "Grapes"
   },
   {
     name: "Sarah Baxter",
-    description: "Mother",
+    description: "Household contact",
     favoriteFruit: "Peach"
   },
   {
     name: "Chris Baxter",
-    description: "Uncle",
+    description: "Household contact",
     favoriteFruit: "Orange"
   },
   {
     name: "Laura Baxter",
-    description: "Daughter",
+    description: "Household contact",
     favoriteFruit: "Green Apple"
   },
   {
