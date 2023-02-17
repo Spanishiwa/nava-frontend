@@ -9,10 +9,13 @@ Technical decisions:
 I chose React because it's a lightweight framework that is great for building reusable UX components and quick to develop in with its JSX templating. React-Router-Dom is the most common and most battle-tested library used with React for routing single-page applications. I chose MUI because it's supported by Google, it has excellent documentation and a wide range of features from color themes, components, and icons.
 
 Choices that deviated:
-I added an icon to the add new member button to make its purpose more intuitive. I added box shadows to the cards, button, and header to add emphasis in a way that is consistent with google's material design elevation principles.
+-I added an icon to the add new member button to make its purpose more intuitive.
+-I added box shadows to the cards, button, and header to add emphasis in a way that is consistent with google's material design elevation principles.
+-I center align when there is not much margin available (small screens) and left align when there is space (large screens)
 
 Questions:
-I would have asked if the "Marketplace" text in the header is a link or plain text. To me it looks like a "Facebook" header which is a link, that's why I used React Router Dom. I would have asked about the cards: Should their sizes be the same, or based on its content? What would the design look like with 3 or 5 cards - stacked vertically or unevenly spread on multiple rows?
+-I would have asked if the "Marketplace" text in the header is a link or plain text. To me it looks like a "Facebook" header which is a link, that's why I used React Router Dom.
+-I would have asked about the cards: Should their sizes be the same, or based on its content? What would the design look like with 3 or 5 cards - stacked vertically or unevenly spread on multiple rows?
 
 ## Available Scripts
 
